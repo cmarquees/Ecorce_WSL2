@@ -2,12 +2,17 @@
 
 WSL 2 is only compatible with Windows 10/11 version 2004 build 19041 or higher. To determine the version of Windows 10 you are currently using, you can run the following command in the command prompt or PowerShell:
 
+
 ```
 $ winver 
 ```
 
 This command will open a window displaying the exact version and build number of your Windows 10/11 installation. If the version number is 2004 or higher, you can proceed with installing and using WSL 2.
 
+<p align = "center">
+  <img src="https://github.com/cmarquees/Ecorce_WSL2/assets/19821658/41fa6561-01bf-40af-a1f4-0b522bd505bf"
+    
+</p>
 
 ## Enabling WSL2
 
@@ -37,13 +42,23 @@ In this guide, I will focus on the Debian 11 installation, but the same procedur
 ```
 wsl --install -d Debian
 ```
+<p align = "center">
+<img src=https://github.com/cmarquees/Ecorce_WSL2/assets/19821658/48c4e66b-c00d-4fa7-86ed-f68d357140ae>
+</p>
 
 After completing the download, open the debian bash by pressing the Win button and writing "Debian". Wait the system loading, register your user and then update the APT cache and upgrade all the packages.
+
+<p align = "center">
+<img src=https://github.com/cmarquees/Ecorce_WSL2/assets/19821658/4356f57a-ed48-452d-869e-25685b54fbb2>
+</p>
 
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ cat /etc/os-release
 ```
+<p align = "center">
+<img src=https://github.com/cmarquees/Ecorce_WSL2/assets/19821658/43e548b5-ad8d-407c-a114-bbe4473aca67>
+</p>
 
 ## Download ECORCE tool
 
@@ -64,3 +79,7 @@ Now if you run ECORCE, in your Debian terminal, a graphical window would open. H
 sudo service dbus start
 ```
 Now we have finished the installation, write ECORCE again and enjoy.
+
+<p align = "center">
+  <img src=https://github.com/cmarquees/Ecorce_WSL2/assets/19821658/90ffd50a-6dfd-41a5-aa63-28d9687d8a66>
+</p>
