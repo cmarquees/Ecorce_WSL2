@@ -68,7 +68,7 @@ https://cloud.delphea.eu/index.php/s/5QneJE2S3HM82aA
 ```
 To install the package on Debian, run the follow comand.
 ```
-sudo dpkg -i ecorce_2.23R7651-debian11_amd64
+sudo dpkg -i ecorce_2.xxRxxxx-debian11_amd64.deb
 ```
 There will probably be dependences to be addressed. To fix them, run the following command.
 ```
